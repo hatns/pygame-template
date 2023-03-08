@@ -35,9 +35,6 @@ def game_update(): # Update display, Read events, Limit framerate:
     pygame_clock.tick(frames_per_second)
     events.update()
 
-def printx(x):
-    print(x)
-
 # Initiate EventHandler
 events = EventHandler()
 events.add(pygame.QUIT, game_exit) 
