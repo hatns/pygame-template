@@ -6,7 +6,7 @@ screen_dimensions = (1080, 720)
 frames_per_second = 60
 
 # Initiate PyGame
-screen = pygame.display.set_mode(screen_dimensions)
+window = pygame.display.set_mode(screen_dimensions)
 
 # Initiate GameHandler
 gamehandler = pygame.GameHandler(frames_per_second)
